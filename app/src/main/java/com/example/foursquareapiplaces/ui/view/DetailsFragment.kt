@@ -139,7 +139,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
     fun saveFavs(place:DetailsPlaceResult){
         val buttonAdd= binding.addPlaceId
-       // listOfPlaces= loadFavs()
+        listOfPlaces= loadFavs()
         listOfPlaces.add(place)
 
         buttonAdd.setOnClickListener {
@@ -154,7 +154,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
     }
 
-   /* fun loadFavs():ArrayList<DetailsPlaceResult>{
+  fun loadFavs():ArrayList<DetailsPlaceResult>{
 
         var gson= Gson()
         var json= FoursquareApiPlaces.prefs.places
@@ -164,7 +164,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
 
         return listFavPlaces
-    }*/
+    }
 
 
 

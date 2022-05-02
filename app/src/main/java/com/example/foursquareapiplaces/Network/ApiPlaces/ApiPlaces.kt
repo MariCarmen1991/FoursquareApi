@@ -11,7 +11,7 @@ interface ApiPlaces {
 
     // Call venues
 
-    @GET("places/search?radius=3000")
+    @GET("places/search?radius=10000")
     suspend fun requestVenues(
 
                       @Query(value="ll") ll: String,
