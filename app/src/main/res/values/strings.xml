@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Foursquare Api Places</string>
+    <string name="search_hint">Search</string>
+    <string name="category_rw">Category</string>
+    <string name="name_rw">Pizzería Jack</string>
+    <string name="distance_rw">2 km</string>
+    <string name="location_rw">Canarias</string>
+    <string name="score_rw">8.0</string>
+
+    <string name="info_tv">INFORMATION</string>
+    <string name="address_tv">adrress</string>
+    <string name="country_tv">Country</string>
+    <string name="hours_tv">HOURS</string>
+    <string name="isOpen_tv">open</string>
+    <string name="category_tv">CATEGORY</string>
+    <string name="category_type_tv">Pizza</string>
+    <string name="phone_tv">PHONE</string>
+    <string name="phone_number_tv">680977543</string>
+    <string name="web_tv">WEB SITE</string>
+    <string name="web_text_tv">www.mydomain.com</string>
+    <string name="rating_tv">RATING</string>
+    <string name="rating_text_tv">rating</string>
+    <string name="text_rating_tv">Based on</string>
+    <string name="text_rating_tv2">reviews</string>
+    <string name="price_tit_tv">PRICE</string>
+
+    <string name="price_1">CHEAP</string>
+    <string name="price_2">MODERATE</string>
+    <string name="price_3">EXPENSIVE</string>
+    <string name="price_4">VERY EXPENSIVE</string>
+
+    <string name="button_favs">Add Place</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="rationale_title">We need permission to show places</string>
+    <string name="rationale_desc">This app generally searches for places near you.
+        We need your location to be able to perform this action.
+        The location will be used solely for the operation of the application.
+        We will not store any info in our data base if they are not a part of our platform.
+</string>
+
+
+</resources>

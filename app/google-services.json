@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984029980580",
+    "project_id": "foursquare-project-348010",
+    "storage_bucket": "foursquare-project-348010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984029980580:android:9519f1bac139bef1a2c331",
+        "android_client_info": {
+          "package_name": "com.example.foursquareapiplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984029980580-jccs8542utead53b112c0865ckim62e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb5hE52jqcVgaFS-HVuRMwND09L2ID0Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984029980580-jccs8542utead53b112c0865ckim62e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
