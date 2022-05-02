@@ -6,4 +6,4 @@ data class HoursPopular(
     val close: String?,
     val day: Int?,
     val `open`: String?
-): java.io.Serializable
+): Serializable

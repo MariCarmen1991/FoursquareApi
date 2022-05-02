@@ -91,7 +91,10 @@ class VenuesViewModel @Inject constructor( val venuesRepository: VenuesRepositor
                 }.collect {
 
                         detailPlaces ->  stateFlowDetails.value = ApiState.SuccesDetails(detailPlaces)
-                    Log.d("Mari Carmen", "DETAILS OF PLACES "+detailPlaces.copy() )
+                    Log.d("Mari Carmen", "DETAILS OF PLACES "+detailPlaces.features )
+
+                    Log.d("Mari Carmen", "DETAILS OF PLACES "+detailPlaces.hours )
+                    Log.d("Mari Carmen", "DETAILS OF PLACES "+detailPlaces.hours_popular )
 
 
                     _listOfPlaces.add(detailPlaces)

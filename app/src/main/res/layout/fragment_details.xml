@@ -374,7 +374,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
                         android:backgroundTint="@color/mRed"
-                        android:paddingTop="0"
                         android:text="@string/button_favs"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -393,7 +392,7 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_marginBottom="10dp">
 
                             <androidx.constraintlayout.widget.Guideline
@@ -447,10 +446,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="4dp"
-                                android:layout_marginBottom="12dp"
                                 android:text="@string/isOpen_tv"
                                 android:textSize="16sp"
-                                app:layout_constraintBottom_toTopOf="@+id/divider2"
                                 app:layout_constraintEnd_toStartOf="@+id/guideline6"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/title_hours" />
@@ -475,23 +472,27 @@
                                 android:layout_width="120dp"
                                 android:layout_height="1dp"
                                 android:layout_marginStart="4dp"
-                                android:layout_marginTop="12dp"
+                                android:layout_marginTop="14dp"
+                                android:layout_marginBottom="8dp"
                                 android:background="?android:attr/listDivider"
+                                app:layout_constraintBottom_toTopOf="@+id/textView7"
                                 app:layout_constraintEnd_toStartOf="@+id/guideline6"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/open_id" />
+                                app:layout_constraintTop_toBottomOf="@+id/hour_open" />
 
                             <TextView
                                 android:id="@+id/categories_tv"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
+                                android:layout_width="192dp"
+                                android:layout_height="22dp"
                                 android:layout_marginStart="16dp"
                                 android:text="@string/category_type_tv"
                                 android:textSize="16sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                                app:layout_constraintHorizontal_bias="0.0"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+                                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                                app:layout_constraintVertical_bias="1.0" />
 
                             <TextView
                                 android:id="@+id/textView7"
@@ -508,8 +509,8 @@
 
                             <ImageView
                                 android:id="@+id/imageMap_id"
-                                android:layout_width="0dp"
-                                android:layout_height="0dp"
+                                android:layout_width="210dp"
+                                android:layout_height="209dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="@+id/guideline6"
@@ -527,6 +528,21 @@
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="0.111"
                                 app:srcCompat="@drawable/ic_baseline_info_24" />
+
+                            <TextView
+                                android:id="@+id/hour_open"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="10dp"
+                                android:text="TextView"
+                                app:layout_constraintBottom_toTopOf="@+id/divider2"
+                                app:layout_constraintEnd_toStartOf="@+id/guideline6"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/open_id"
+                                app:layout_constraintVertical_bias="0.458" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.cardview.widget.CardView>

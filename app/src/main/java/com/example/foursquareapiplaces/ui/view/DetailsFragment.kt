@@ -11,14 +11,11 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
-import androidx.lifecycle.Observer
 import com.example.foursquareapiplaces.FoursquareApiPlaces
 import com.example.foursquareapiplaces.GOOGLE_API
 import com.example.foursquareapiplaces.R
 import com.example.foursquareapiplaces.databinding.FragmentDetailsBinding
 import com.example.foursquareapiplaces.model.detailPlaces.DetailsPlaceResult
-import com.example.foursquareapiplaces.ui.viewModel.VenuesViewModel
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.squareup.picasso.Picasso
@@ -29,7 +26,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class DetailsFragment : Fragment(R.layout.fragment_details) {
 
     private lateinit var binding : FragmentDetailsBinding
-    val viewModelDetail by viewModels<VenuesViewModel>()
     private  var listOfPlaces =ArrayList<DetailsPlaceResult>()
 
 
@@ -97,6 +93,17 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
                 binding.progressBar.setProgress(place.rating!!.toInt())
                 binding.scoreDetailsTv.text=place.rating.toString()
 
+        if(!place.hours?.display.isNullOrEmpty()){
+            binding.hourOpen.text= place.hours?.display
+            Log.d("MariCarmen", "Res : "+place.hours?.display)
+        }
+        else{
+
+            binding.hourOpen.text= "No hours info"
+
+
+        }
+
 
 
         //Google static map
@@ -133,6 +140,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
                 }
 
         saveFavs(place)
+
 
     }
 
