@@ -39,7 +39,7 @@
                         android:id="@+id/cardView3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="5dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/cardView">
@@ -231,33 +231,34 @@
 
                             <TextView
                                 android:id="@+id/scoreDetails_tv"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="16dp"
+                                android:layout_width="39dp"
+                                android:layout_height="38dp"
+                                android:layout_marginTop="8dp"
                                 android:text="@string/score_rw"
+                                android:textAlignment="center"
                                 android:textColor="@color/mYellow"
-                                android:textSize="16sp"
 
+                                android:textSize="24sp"
                                 android:textStyle="bold"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.566"
+                                app:layout_constraintHorizontal_bias="0.54"
                                 app:layout_constraintStart_toEndOf="@+id/textView"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <ProgressBar
                                 android:id="@+id/progressBar"
                                 style="?android:attr/progressBarStyleHorizontal"
-                                android:layout_width="79dp"
-                                android:layout_height="16dp"
-                                android:layout_marginEnd="64dp"
+                                android:layout_width="176dp"
+                                android:layout_height="12dp"
                                 android:layout_marginBottom="8dp"
                                 android:max="10"
                                 android:progress="5"
                                 android:progressTint="@color/mOrange"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/textView"
                                 app:layout_constraintTop_toBottomOf="@+id/scoreDetails_tv"
-                                app:layout_constraintVertical_bias="0.131" />
+                                app:layout_constraintVertical_bias="0.0" />
 
                             <ProgressBar
                                 android:id="@+id/progressBarPrice"
@@ -278,7 +279,7 @@
                                 android:id="@+id/tv_very_Expensive"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_marginEnd="28dp"
                                 android:layout_marginBottom="8dp"
                                 android:text="@string/price_4"
@@ -293,7 +294,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="24dp"
-                                android:layout_marginTop="2dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_marginBottom="8dp"
                                 android:text="@string/price_1"
                                 android:textSize="10sp"
@@ -309,7 +310,7 @@
                                 android:id="@+id/tv_moderate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_marginEnd="40dp"
                                 android:layout_marginBottom="8dp"
                                 android:text="@string/price_2"
@@ -324,7 +325,7 @@
                                 android:id="@+id/tv_expensive"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_marginEnd="48dp"
                                 android:layout_marginBottom="8dp"
                                 android:text="@string/price_3"
