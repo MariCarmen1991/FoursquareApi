@@ -1,4 +1,4 @@
-package com.example.foursquareapiplaces
+package com.example.foursquareapiplaces.utils
 
 import android.content.Context
 import android.content.SharedPreferences

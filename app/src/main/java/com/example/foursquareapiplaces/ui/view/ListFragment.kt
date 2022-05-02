@@ -16,11 +16,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foursquareapiplaces.ApiState
+import com.example.foursquareapiplaces.utils.ApiState
 import com.example.foursquareapiplaces.R
 import com.example.foursquareapiplaces.databinding.FragmentListBinding
 import com.example.foursquareapiplaces.model.detailPlaces.DetailsPlaceResult
-import com.example.foursquareapiplaces.model.places.Result
 import com.example.foursquareapiplaces.ui.adapters.PlaceAdapter
 import com.example.foursquareapiplaces.ui.viewModel.VenuesViewModel
 import dagger.hilt.android.AndroidEntryPoint

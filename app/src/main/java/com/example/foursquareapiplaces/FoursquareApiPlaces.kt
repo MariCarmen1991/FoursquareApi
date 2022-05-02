@@ -1,7 +1,7 @@
 package com.example.foursquareapiplaces
 
-import android.app.Activity
 import android.app.Application
+import com.example.foursquareapiplaces.utils.DataFavsRepository
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp

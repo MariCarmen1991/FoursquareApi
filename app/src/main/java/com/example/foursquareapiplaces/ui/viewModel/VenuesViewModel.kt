@@ -1,10 +1,8 @@
 package com.example.foursquareapiplaces.ui.viewModel
 
-import android.app.Activity
 import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.*
-import com.example.foursquareapiplaces.ApiState
+import com.example.foursquareapiplaces.utils.ApiState
 import com.example.foursquareapiplaces.Network.ApiPlaces.VenuesRepository
 import com.example.foursquareapiplaces.model.detailPlaces.DetailsPlaceResult
 import com.example.foursquareapiplaces.model.places.FoursquareResponse

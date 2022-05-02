@@ -15,7 +15,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foursquareapiplaces.ApiState
+import com.example.foursquareapiplaces.utils.ApiState
 import com.example.foursquareapiplaces.R
 import com.example.foursquareapiplaces.databinding.FragmentMapsBinding
 import com.example.foursquareapiplaces.model.detailPlaces.DetailsPlaceResult
@@ -28,7 +28,6 @@ import com.google.android.gms.maps.GoogleMap
 
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
