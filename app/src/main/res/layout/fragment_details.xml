@@ -17,11 +17,12 @@
         android:background="@color/quantum_grey200">
 
         <ScrollView
-            android:layout_width="match_parent"
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0">
@@ -114,6 +115,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
+
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.cardview.widget.CardView>
 
@@ -145,8 +147,8 @@
 
                             <View
                                 android:id="@+id/view"
-                                android:layout_width="413dp"
-                                android:layout_height="217dp"
+                                android:layout_width="408dp"
+                                android:layout_height="229dp"
                                 android:background="@drawable/gradient_color"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -359,24 +361,24 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.cardview.widget.CardView>
 
-                    <Button
-                        android:id="@+id/add_place_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:backgroundTint="@color/mRed"
-                        android:text="@string/button_favs"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.498"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
-
                     <androidx.constraintlayout.widget.Guideline
                         android:id="@+id/guideline7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         app:layout_constraintGuide_percent="0.3" />
+
+                    <Button
+                        android:id="@+id/add_place_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="@color/mRed"
+                        android:paddingTop="0"
+                        android:text="@string/button_favs"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardView5"
@@ -385,12 +387,14 @@
                         android:layout_marginTop="10dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+                        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+                        app:layout_goneMarginBottom="10dp">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
 
                             <androidx.constraintlayout.widget.Guideline
                                 android:id="@+id/guideline6"
@@ -527,6 +531,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.cardview.widget.CardView>
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
             </LinearLayout>
         </ScrollView>
 
