@@ -31,6 +31,10 @@ On the other hand, it allows you to search for places using the Google Api Place
 # Image
 
 <br></br>
+
+<img src="https://github.com/MariCarmen1991/FoursquareApi/blob/main/images/place2.png" width="200"/> <img src="https://github.com/MariCarmen1991/FoursquareApi/blob/main/images/place3.png" width="200"/> <img src="https://github.com/MariCarmen1991/FoursquareApi/blob/main/images/place4.png" width="240"/> <img src="https://github.com/MariCarmen1991/FoursquareApi/blob/main/images/place5.png" width="240"/> 
+
+
 ![image](https://media.giphy.com/media/pVO7DXxSnco0tPD5d6/giphy.gif)    ![image](https://media.giphy.com/media/2iJmKlgMGZKa66sSSB/giphy.gif)
 
 
